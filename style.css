@@ -125,20 +125,7 @@ body {
   margin: auto;
   object-fit: cover;
 }
-/* .container {
-  float: left;
-  margin-left: 10px;
-  margin-top: 20px;
-  }
-.container {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  width: fit-content;
-  grid-template-columns:repeat(6, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 1rem;
-} */
+
 .gallery{
   width: 900px;
   display: flex;
@@ -150,7 +137,7 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 20px;
-  padding: 10px;
+  padding: 1px;
   flex: none;
 }
 
