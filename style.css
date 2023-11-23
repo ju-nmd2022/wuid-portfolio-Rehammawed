@@ -125,7 +125,7 @@ body {
   margin: auto;
   object-fit: cover;
 }
-.container {
+/* .container {
   float: left;
   margin-left: 10px;
   margin-top: 20px;
@@ -138,6 +138,41 @@ body {
   grid-template-columns:repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
+} */
+.gallery{
+  width: 900px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.gallery div{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  flex: none;
+}
+
+.gallery div img{
+  width: 100%;
+}
+
+.gallery::-webkit-scrollbar{
+  display: none;
+}
+
+.gallery-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% auto;
+}
+
+#backBtn, #nextBtn{
+  width: 50px;
+  cursor: pointer;
+  margin: 40px;
 }
 
 h3,
