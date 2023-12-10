@@ -1,3 +1,4 @@
+//https://youtu.be/gzXyRa7jwk4?si=I9IQLkSOeFyaU8pZ
 let scrollContainer = document.querySelector(".gallery");
 let backBtn = document.getElementById("backBtn")
 let nextBtn = document.getElementById("nextBtn")
